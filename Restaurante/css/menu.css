@@ -1,0 +1,35 @@
+.menu{
+    display: flex;
+    text-align: center;
+}
+.menu button{
+    margin-right: 2rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.content{
+    margin-top: 2rem;
+}
+[data-content]{
+    display: none;
+}
+.active[data-content]{
+    display: block;
+}
+h1{
+    text-align: center;
+}
+
+.navbar-toggler{
+    background-color: white;
+    background: none;
+    font-size: 30px;
+    padding-left: 0 20px;
+    line-height: 60px;
+    
+    display: none;
+    }
+    .navbar-toggler-icon{
+        background-color: white;
+    }
